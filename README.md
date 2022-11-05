@@ -3,8 +3,13 @@ Admin :
     passw : 1
 
 customer: 
-    login : pra-0
-    passw : pra21
+    user    : pass
+    pra-0   : pra21
+
+joint acc:
+    user    : pass
+    zoro-1  : zoro22
+    sanji-2 : sanji21
 
 client -> server (socket programming) : 
 
@@ -20,13 +25,13 @@ Client{
 
 
 1.  registration / login
-2.  normal user{
-        > Deposit
-        > Withdraw
-        > Balance Enquiry
-        > Password Change
-        > View details
-        > Exit
+    - normal user{
+        - Deposit
+        - Withdraw
+        - Balance Enquiry
+        - Password Change
+        - View details
+        - Exit
     }
     joint account user{
         > implement file locking
@@ -41,8 +46,6 @@ Client{
         > search for a specific account details.
     }
 
-Process Management
 File Management
 File Locking
-Multithreading
 Inter Process Communication
