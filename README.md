@@ -33,17 +33,17 @@ Client{
         - View details
         - Exit
     }
-    joint account user{
-        > implement file locking
-        > to view the account details then read lock is to be set
-        > to withdraw or deposit then write lock should be used to protect the critical data section.
+    - joint account user{
+        - implement file locking
+        - to view the account details then read lock is to be set
+        - to withdraw or deposit then write lock should be used to protect the critical data section.
 
     }
-    administrator{
-        > add
-        > delete
-        > modify
-        > search for a specific account details.
+    - administrator{
+        - add
+        - delete
+        - modify
+        - search for a specific account details.
     }
 
 File Management
